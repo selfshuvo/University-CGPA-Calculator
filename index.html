@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University CGPA Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<!-- Header Starts -->
+<header>
+    <div class="w-full h-14 bg-[#7F00FE]">
+        <h1 class="text-white text-xl font-extrabold text-center py-3">University CGPA Calculator</h1>
+    </div>
+</header>
+<!-- Header Ends -->
+
+<!-- Main Starts -->
+<main class="w-full h-[calc(100vh-56px)] bg-[#212229] flex flex-col">
+    
+    <section class="w-4/12 mx-auto mt-5">
+        <!-- Input Section Starts -->
+        <div class="flex flex-row items-center justify-center w-full ">
+            <input class="w-full py-3 rounded-l-full bg-[#9CA3AF] border-none outline-none text-center text-white font-bold text-xl" type="text" name="" id="">
+            <button class="text-white text-3xl px-5 py-2 font-extrabold bg-[#C2410C] rounded-r-full">=</button>
+        </div>        
+        <!-- Input Section Ends -->
+
+        <!-- Primary Button Starts -->
+
+        <div class="mt-5 flex flex-row justify-end gap-3">
+            <button class="text-white bg-[#C2410C] px-3 py-3 rounded-lg">Remove</button>
+            <button class="text-white bg-[#C2410C] px-5 py-3 rounded-lg">/</button>
+            <button class="text-white bg-[#C2410C] px-5 py-3 rounded-lg">+</button>
+            <button class="text-white bg-[#C2410C] px-4 py-3 rounded-lg">AC</button>
+        </div>
+
+        <!-- Primary Button Ends -->
+
+        <!-- Main Field Starts -->
+        <div class="w-full bg-[#ffffff] mt-5 rounded-md flex flex-row pb-5">
+            <!-- Left Side Starts -->
+            <div class="ml-5 w-3/4 gap-5 flex flex-col mt-5 ">
+                <div class="space-x-3">
+                    <button class="bg-[#7F00FE] text-white text-2xl font-extrabold h-14 w-14 rounded-xl shadow-md shadow-[#7F00FE]">A+</button>
+                    <button class="bg-[#7F00FE] text-white text-2xl font-extrabold h-14 w-14 rounded-xl shadow-md shadow-[#7F00FE]">A</button>
+                    <button class="bg-[#7F00FE] text-white text-2xl font-extrabold h-14 w-14 rounded-xl shadow-md shadow-[#7F00FE]">A-</button>
+                </div>
+                
+                <div class="space-x-3">
+                    <button class="bg-[#7F00FE] text-white text-2xl font-extrabold h-14 w-14 rounded-xl shadow-md shadow-[#7F00FE]">B+</button>
+                    <button class="bg-[#7F00FE] text-white text-2xl font-extrabold h-14 w-14 rounded-xl shadow-md shadow-[#7F00FE]">B</button>
+                    <button class="bg-[#7F00FE] text-white text-2xl font-extrabold h-14 w-14 rounded-xl shadow-md shadow-[#7F00FE]">B-</button>
+                </div>
+                <div class="space-x-3">
+                    <button class="bg-[#7F00FE] text-white text-2xl font-extrabold h-14 w-14 rounded-xl shadow-md shadow-[#7F00FE]">C+</button>
+                    <button class="bg-[#7F00FE] text-white text-2xl font-extrabold h-14 w-14 rounded-xl shadow-md shadow-[#7F00FE]">C</button>
+                    <button class="bg-[#7F00FE] text-white text-2xl font-extrabold h-14 w-14 rounded-xl shadow-md shadow-[#7F00FE]">D</button>
+                </div>
+                <div class="text-center">           
+                    <button class="bg-[#B91C1C]  text-white text-2xl font-extrabold h-14 w-14 rounded-full shadow-md shadow-[#C2410C]">F</button>
+                </div>
+                <!-- Left Side Ends -->
+
+            </div>
+           
+            <!-- Right Side Starts -->
+            <div class="mt-5 flex flex-col gap-4 ">
+                <div class="">
+                    <button class="bg-[#6B7280] text-2xl font-extrabold h-10 w-10 text-white rounded-lg shadow-md shadow-[#6B7280]">6</button>
+                </div>
+                <div class="">
+                    <button class="bg-[#6B7280] text-2xl font-extrabold h-10 w-10 text-white rounded-lg shadow-md shadow-[#6B7280]">7</button>
+                </div>
+                <div class="">
+                    <button class="bg-[#6B7280] text-2xl font-extrabold h-10 w-10 text-white rounded-lg shadow-md shadow-[#6B7280]">8</button>
+                </div>
+                <div class="">
+                    <button class="bg-[#6B7280] text-2xl font-extrabold h-10 w-10 text-white rounded-lg shadow-md shadow-[#6B7280]">9</button>
+                </div>
+            </div>
+            
+            
+            <!-- Right Side Ends -->
+
+        </div>
+
+        <!-- Main Field Ends -->
+
+    </section>
+    
+</main>
+<!-- Main Ends -->
+    
+</body>
+</html>
